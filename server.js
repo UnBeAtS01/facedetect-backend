@@ -11,11 +11,11 @@ const image = require("./controllers/image");
 const db = knex({
   client: "pg",
   connection: {
-    host: "ec2-34-200-72-77.compute-1.amazonaws.com",
-    user: "konhpxrkbwenxj",
+    host: "ec2-18-210-214-86.compute-1.amazonaws.com",
+    user: "wygrmisiioyjey",
     password:
-      "39d5eb633e1704aa01052e29ba1133e1f8f5e983f3309595c040dc48f62e8d8a",
-    database: "da9emmraroca5h",
+      "7bf59fd7acfc8c9723003a158fa4afc98d869f5b4e05553871a3c00470f179cf",
+    database: "d8qoh0j96glspk",
   },
 });
 
